@@ -1,0 +1,13 @@
+before_install:
+- $TRAVIS_BUILD_DIR/echo_bash.sh
+node_js:
+- '9'
+notifications:
+  email:
+    on_failure: always
+    on_success: always
+    recipients:
+    - muizudeen+npmjs@travis-ci.com
+deploy:
+  - provider: npm
+  - email: "muizudeen+npmjs@travis-ci.com"

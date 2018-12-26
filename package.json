@@ -1,0 +1,29 @@
+{
+  "name": "say_deploy",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Say Deploy!",
+  "keywords": [
+    "RandomPackage"
+  ],
+  "main": "app.js",
+  "repository": {},
+  "scripts": {
+    "build": "node app.js",
+    "test": "mocha tests/*",
+    "lint": "eslint *.js"
+  },
+  "dependencies": {
+    "cowsay": "~1.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-google": "^0.11.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "~5.2.0"
+  }
+}
