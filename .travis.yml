@@ -7,5 +7,8 @@ notifications:
     recipients:
     - muizudeen+npmjs@travis-ci.com
 deploy:
+  matrix:
   - provider: npm
-  - email: "muizudeen+npmjs@travis-ci.com"
+  - email: muizudeen+npmjs@travis-ci.com
+  api_key:
+    secure: YGIC98IitU0QXwZfCks27BWmzbZ96IO3RRlO7Xg4kxsiru8oKC0f+o/F72nYwt7BBFKa00ki9o4Rp0uAXRWPnfje6F7dUD1X/6ekCan3RMv5evygL/1BkzHS8eXIckGofG1tFl6gZqF11+Gnki6lnB9KSm3uxkr5A45pr1WF4cuFjZA810vG3rTkBDDtBGV6VsSTzTc9mE4sa+sYyd7cOZAzMKiW5JVMMg1CyrUIIA5SKAM6BX4L0JquzGJp96yoq5IUbATXfH2abtcu3jCgnFmXytsqM15fSjOqV+OELoQlygN79ig5pjN9GzPdR9HYAIj9hV4003YXlfvzbQ5TZFj3R2uQzq+qAjiX6kQrW0rnd5UEA2NI7I8iq9D5eeL3udq1nFmA3w0zIIyArgW8j7+P6YcxMrokIcsbt0cReSRr/XqZX7BdaS8qYZ7aW97wT9JH2vR6XrZbzbhwGM6GqlPzK3U0V7Eb69GhYGldD3SsiWGwAYY840b8t6gnk+I1DlMbdPKabkr9/pd5o8oZWEQ8bcIJ5b99sXpxPniDqWHeN9I0z/qWktSjNE3C3ERVzk/pJgCHa0qko/XGQaEhsscwYQL4vV24ukiuJMgeMTj6Sl+eL/ARBilHoPldgVDqBFw90fwOf0IeMqJdndLMpjFjY92Zr71LRdAtp3vu6Jo=
