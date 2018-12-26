@@ -1,6 +1,3 @@
-sudo: required
-before_install:
-- $TRAVIS_BUILD_DIR/echo_bash.sh
 node_js:
 - '9'
 notifications:
