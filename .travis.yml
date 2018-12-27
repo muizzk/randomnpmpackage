@@ -1,5 +1,7 @@
 node_js:
 - '9'
+env:
+ - TRAVIS_TAG: "v0.0.1"
 notifications:
   email:
     on_failure: always
