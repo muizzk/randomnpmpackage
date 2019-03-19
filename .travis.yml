@@ -20,3 +20,4 @@ deploy:
 
 script: 
   - "echo `node -e 'console.log(process.version)'`"
+  - which python
